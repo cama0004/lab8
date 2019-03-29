@@ -15,10 +15,10 @@ public enum GamePiece {
 		this.priority = priority;
 	}
 	public Color getColor() {
-		
+		return getColor();		
 	}
 	public Shape getShape() {
-		
+		return getShape();
 	}
 
 	public static GamePiece movesFirst(GamePiece a,
@@ -32,3 +32,4 @@ public enum GamePiece {
 	}
 
 }
+
